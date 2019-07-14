@@ -6,5 +6,6 @@ import java.util.List;
 
 public interface UserDao {
 
+    // 这是远程dev分支的UserDao
     List<User> findAll();
 }
